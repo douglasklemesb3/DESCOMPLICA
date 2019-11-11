@@ -53,7 +53,7 @@ const Cadastro = () => {
                 window.location = "/finale"
 
             } else {
-                alert("houve um erro")
+                alert("Desculpe,seu Cadastro não foi realizado")
             }
 
             nomeRef.current.value = "";

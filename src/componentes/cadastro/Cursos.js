@@ -54,7 +54,7 @@ const Curso = () => {
                 window.location = "/finalc"
 
             } else {
-                alert("Desculpe,seu Cadastro não foi realizado,por que você tem idade o suficiente.")
+                alert("Desculpe,seu Cadastro não foi realizado.")
             }
 
             nomeRef.current.value = "";
