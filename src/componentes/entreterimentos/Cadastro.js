@@ -24,7 +24,7 @@ const Cadastro = () => {
     const Cadastrar = (event) => {
         event.preventDefault();
 
-        fetch(API_URL + '/api/entretenimentos/', {
+        fetch(API_URL + ' api/entretenimentos/', {
             method: 'POST',
             body: JSON.stringify({
                 nome: nomeRef.current.value,

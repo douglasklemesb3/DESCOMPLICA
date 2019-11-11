@@ -24,7 +24,7 @@ const Curso = () => {
     const Cadastrar = (event) => {
         event.preventDefault();
 
-        fetch(API_URL +'/api/cursos/', {
+        fetch(API_URL + 'api/cursos/', {
             method: 'POST',
             body: JSON.stringify({
                 nome: nomeRef.current.value,
