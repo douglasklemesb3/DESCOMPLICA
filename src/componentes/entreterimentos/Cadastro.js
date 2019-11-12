@@ -19,7 +19,7 @@ const Cadastro = () => {
     const Cadastrar = (event) => {
         event.preventDefault();
 
-        fetch(API_URL + ' api/entretenimentos/', {
+        fetch(API_URL + 'api/entretenimentos/', {
             method: 'POST',
             body: JSON.stringify({
                 nome: nomeRef.current.value,
@@ -82,7 +82,7 @@ const Cadastro = () => {
         <input className="formu" type="text" ref={telefoneRef} />
         <label>Endereço:</label>
         <input className="formu" type="text" ref={enderecoRef}/>
-        <Button> Registar</Button>
+        <Button> Registrar</Button>
     </form>
 </div>
    )
