@@ -10,14 +10,10 @@ const Curso = () => {
     const idadeRef = React.useRef("");
     const rgREf = React.useRef("");
     const cpfRef = React.useRef("");
-    const nascimentoRef = React.useRef("");
     const sexoRef = React.useRef("");
     const emailRef = React.useRef("");
     const telefoneRef = React.useRef("");
-    const bairroRef = React.useRef("");
     const enderecoRef = React.useRef("");
-    const residenciaRef = React.useRef("");
-    const periodoRef = React.useRef("");
 
 
 
@@ -31,14 +27,10 @@ const Curso = () => {
                 idade: idadeRef.current.value,
                 rg: rgREf.current.value,
                 cpf: cpfRef.current.value,
-                dataNascimento: nascimentoRef.current.value,
                 sexo: sexoRef.current.value,
                 email: emailRef.current.value,
                 telefone: telefoneRef.current.value,
                 endereco: enderecoRef.current.value,
-                bairro: bairroRef.current.value,
-                numero_de_recidencia: residenciaRef.current.value,
-                periodo: periodoRef.current.value,
 
             }),
             headers: {
@@ -61,14 +53,10 @@ const Curso = () => {
             idadeRef.current.value = "";
             rgREf.current.value = "";
             cpfRef.current.value = "";
-            nascimentoRef.current.value = "";
             sexoRef.current.value = "";
             emailRef.current.value = "";
             telefoneRef.current.value = "";
             enderecoRef.current.value = "";
-            bairroRef.current.value = "";
-            residenciaRef.current.value = "";
-            periodoRef.current.value = "";
 
         })
     }
@@ -77,15 +65,13 @@ const Curso = () => {
             <h1>Matricule-se aqui!</h1>
             <form onSubmit={Cadastrar}>
                 <label>Nome:</label>
-                    <input className="formu"  type="text" ref={nomeRef} placeholder={"Digite seu nome"} autoFocus/>
+                    <input className="formu"  type="text" ref={nomeRef} autoFocus/>
                 <label>Idade:</label>
-                    <input className="formu"  type="text" ref={idadeRef} placeholder={"Digite sua idade"} autoFocus/>
+                    <input className="formu"  type="text" ref={idadeRef}autoFocus/>
                 <label>RG:</label>
-                    <input className="formu"  type="text" ref={rgREf} placeholder={"Ex:00.000.000.00"} autoFocus/>
+                    <input className="formu"  type="text" ref={rgREf} autoFocus/>
                 <label>CPF:</label>
-                    <input className="formu"  type="text" ref={cpfRef} placeholder={"Ex:000.000.000.00"} autoFocus/>
-                <label>Data de Nascimento:</label>
-                    <input className="formu"  type="text" ref={nascimentoRef} placeholder={"Ex:00/00/0000"} autoFocus/>
+                    <input className="formu"  type="text" ref={cpfRef}  autoFocus/>
                 <label >Sexo:</label>
                 <select ref={sexoRef} name="sexo" >
                     <option value="sexo">---</option>
@@ -94,22 +80,12 @@ const Curso = () => {
                     <option value="ND">Não definido</option>
                 </select>
                 <label>Email:</label>
-                    <input className="formu"  type="text" ref={emailRef} placeholder={""} />
+                    <input className="formu"  type="text" ref={emailRef} />
                 <label>Telefone:</label>
-                    <input className="formu"  type="text" ref={telefoneRef} placeholder={"Ex:(00)00000-0000"} />
+                    <input className="formu"  type="text" ref={telefoneRef} />
                 <label>Endereço:</label>
-                    <input className="formu"  type="text" ref={enderecoRef} placeholder={"Digite seu endereco"} />
-                <label>Bairro:</label>
-                    <input className="formu"  type="text" ref={bairroRef} placeholder={"Digite o bairro que mora"} />
-                <label>Número:</label>
-                    <input className="formu"  type="text" ref={residenciaRef} placeholder={"Ex:0000"} />
-                <label >Periodo:</label>
-                <select ref={periodoRef} name="periodo" >
-                    <option value="perido">---</option>
-                    <option value="M">Manhã</option>
-                    <option value="T">Tarde</option>
-                    <option value="N"> Noite </option>
-                </select>
+                    <input className="formu"  type="text" ref={enderecoRef} />
+                
                 <Button> Registrar</Button>
             </form>
         </div>
