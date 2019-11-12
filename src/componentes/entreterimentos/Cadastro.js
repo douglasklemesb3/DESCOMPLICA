@@ -78,7 +78,7 @@ const Cadastro = () => {
         </select>
         <label>Email:</label>
         <input className="formu" type="text" ref={emailRef} />
-        <label>telefone:</label>
+        <label>Telefone:</label>
         <input className="formu" type="text" ref={telefoneRef} />
         <label>Endereço:</label>
         <input className="formu" type="text" ref={enderecoRef}/>
