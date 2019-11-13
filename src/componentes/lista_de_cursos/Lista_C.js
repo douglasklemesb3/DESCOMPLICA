@@ -14,12 +14,12 @@ const ListaC = () =>{
     <div className="imagem">
  
 
-    <Lista titulo="Inglês" imagem={ing} descricao="Curso de inglês disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 1 ano. " local ="Local: Avenida dos Estudantes    n°360     Centro de Caieiras "/>
-    <Lista titulo="Computação" imagem={comp} descricao="Curso de computação disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 6 messes." local ="Local: Rua Caminho Cluadio Manoel da Costa   s/n     Laranjeiras "/>
-    <Lista titulo="Logística" imagem={log} descricao="Curso de logistica disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 2 anos."local ="Local: Avenida Professor Carvalho Pinto    n°207     Centro de Caieiras "/>
-    <Lista titulo="Administração" imagem={adm} descricao="Curso de adiministração disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 1 ano."local ="Local: Avenida Professor Carvalho Pinto    n°207     Centro de Caieiras "/>
-    <Lista titulo="Libras" imagem={lb} descricao="Curso de libras gratuito com duração de 6 meses contendo um diploma após a finalização do mesmo."local ="Local: Avenida Marcelino Bressiani    n°178     Caieiras "/>
-    <Lista titulo="Desenho" imagem={ds} descricao="Curso de desenho gratuito com duração de 6 meses   contendo um diploma após a finalização do mesmo."local ="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
+    <Lista titulo="Inglês" imagem={ing} descricao="Curso de inglês disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 1 ano. " data="As aulas terão inicio no dia: 10/02/2020" local ="Local: Avenida dos Estudantes    n°360     Centro de Caieiras "/>
+    <Lista titulo="Computação" imagem={comp} descricao="Curso de computação disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 6 messes."  data="As aulas terão inicio no dia: 22/02/2020" local ="Local: Rua Caminho Cluadio Manoel da Costa   s/n     Laranjeiras "/>
+    <Lista titulo="Logística" imagem={log} descricao="Curso de logistica disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 2 anos." data="As aulas terão inicio no dia: 24/03/2003"  local ="Local: Avenida Professor Carvalho Pinto    n°207     Centro de Caieiras "/>
+    <Lista titulo="Administração" imagem={adm} descricao="Curso de adiministração disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 1 ano." data="As aulas terão inicio no dia: 01/04/2020" local ="Local: Avenida Professor Carvalho Pinto    n°207     Centro de Caieiras "/>
+    <Lista titulo="Libras" imagem={lb} descricao="Curso de libras disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 18 messes." data="As aulas terão inicio no dia: 03/03/2020"  local ="Local: Avenida Marcelino Bressiani    n°178     Caieiras "/>
+    <Lista titulo="Desenho" imagem={ds} descricao="Curso de desenho disponibilizado pela Prefeitura de Caieiras gratuitamente com duração de 1 ano." data="As aulas terão inicio no dia: 01/03/2020" local ="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
 
 
     </div>      

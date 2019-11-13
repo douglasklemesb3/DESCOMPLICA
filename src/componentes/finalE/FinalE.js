@@ -13,8 +13,6 @@ const FinalE= () => {
             <div className="Final">
                     <p>Cadastro concluido!</p>
                     <p>Seu número de inscrição é {aleatorio}</p>
-                    <p>Data de inicio: 10/02/2020</p>
-                    <p>Horario: 14:00</p>
                     <p>Recomendações:</p>
                     <p>Levar xerox dos seguintes documentos na primeira aula:</p>
                     <p>- RG;</p>

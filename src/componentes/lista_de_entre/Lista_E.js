@@ -14,14 +14,14 @@ import voleibol from '../imagem/volei.jpeg';
 const Lista_E = () =>{
     return(
         <div className="imagem">
-            <Lista titulo="Ballet" imagem={ballet} descricao="As aulas de ballet clássico são oferecidas pela Prefeitura Municipal de Caieiras gratuitamente." local="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
-            <Lista titulo="Dança do ventre" imagem={danca_ventre} descricao="As aulas de dança do ventre são oferecidas pela Prefeitura Municipal de Caieiras gratuitamente." local="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
-            <Lista titulo="Ginástica Artística" imagem={ginastica_artistica} descricao="As aulas de ginastica artistica são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." local ="Local: Avenida Marcelino Bressiani    n°178     Caieiras "/>
-            <Lista titulo="Zumba" imagem={zumba} descricao="As aulas de zumba são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." local="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
-            <Lista titulo="Natação" imagem={natacao} descricao="As aulas de natação são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
-            <Lista titulo="Futsal" imagem={futsal} descricao="As aulas de futsal são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
-            <Lista titulo="Basquete" imagem={basquete} descricao="As aulas de basquete são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
-            <Lista titulo="Voleibol" imagem={voleibol} descricao="As aulas de voleibol são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
+            <Lista titulo="Ballet" imagem={ballet} descricao="As aulas de ballet clássico são oferecidas pela Prefeitura Municipal de Caieiras gratuitamente." data="As aulas terão inicio no dia: 03/03/2020" local="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
+            <Lista titulo="Dança do ventre" imagem={danca_ventre} descricao="As aulas de dança do ventre são oferecidas pela Prefeitura Municipal de Caieiras gratuitamente." data="As aulas terão inicio no dia: 24/03/2020" local="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
+            <Lista titulo="Ginástica Artística" imagem={ginastica_artistica} descricao="As aulas de ginastica artistica são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." data="As aulas terão inicio no dia: 02/04/2020" local ="Local: Avenida Marcelino Bressiani    n°178     Caieiras "/>
+            <Lista titulo="Zumba" imagem={zumba} descricao="As aulas de zumba são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." data="As aulas terão inicio no dia: 03/04/2020" local="Local: Rua Argentina   n°400     Jardim Santo Antonio       Caieiras "/>
+            <Lista titulo="Natação" imagem={natacao} descricao="As aulas de natação são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." data="As aulas terão inicio no dia: 04/03/2020"  local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
+            <Lista titulo="Futsal" imagem={futsal} descricao="As aulas de futsal são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." data="As aulas terão inicio no dia: 02/03/2020" local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
+            <Lista titulo="Basquete" imagem={basquete} descricao="As aulas de basquete são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." data="As aulas terão inicio no dia: 02/03/2020" local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
+            <Lista titulo="Voleibol" imagem={voleibol} descricao="As aulas de voleibol são oferecidas gratuitamente pela Prefeitura Municipal de Caieiras." data="As aulas terão inicio no dia: 02/03/2020"  local="Local: Rua Portugal  n°300  Região Central  Caieiras"/>
         
 
         </div>
