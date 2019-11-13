@@ -2,6 +2,8 @@ import React from 'react'
 import lista from '../lista_de_cursos/lista.js'
 import Lista from '../lista_de_entre/Lista.js';
 import '../FinalC/FinalC.scss'
+
+
 const FinalC = () => {
 
     let aleatorio = Math.floor(Math.random() * 10000);

@@ -14,7 +14,7 @@ const Curso = () => {
     const emailRef = React.useRef("");
     const telefoneRef = React.useRef("");
     const enderecoRef = React.useRef("");
-
+    const periodoRef = React.useRef("");
 
 
     const Cadastrar = (event) => {
@@ -31,7 +31,7 @@ const Curso = () => {
                 email: emailRef.current.value,
                 telefone: telefoneRef.current.value,
                 endereco: enderecoRef.current.value,
-
+                periodo: periodoRef.current.value,
             }),
             headers: {
                 'Content-type': 'application/json'
@@ -41,7 +41,7 @@ const Curso = () => {
         }).then(value => {
             if (value.id && value.idade >= 13) {
 
-    
+
                 localStorage.setItem("id", value.id)
                 window.location = "/finalc"
 
@@ -57,6 +57,7 @@ const Curso = () => {
             emailRef.current.value = "";
             telefoneRef.current.value = "";
             enderecoRef.current.value = "";
+            periodoRef.current.value = "";
 
         })
     }
@@ -65,13 +66,13 @@ const Curso = () => {
             <h1>Matricule-se aqui!</h1>
             <form onSubmit={Cadastrar}>
                 <label>Nome:</label>
-                    <input className="formu"  type="text" ref={nomeRef} autoFocus/>
+                <input className="formu" type="text" ref={nomeRef} autoFocus />
                 <label>Idade:</label>
-                    <input className="formu"  type="text" ref={idadeRef}autoFocus/>
+                <input className="formu" type="text" ref={idadeRef} autoFocus />
                 <label>RG:</label>
-                    <input className="formu"  type="text" ref={rgREf} autoFocus/>
+                <input className="formu" type="text" ref={rgREf} autoFocus />
                 <label>CPF:</label>
-                    <input className="formu"  type="text" ref={cpfRef}  autoFocus/>
+                <input className="formu" type="text" ref={cpfRef} autoFocus />
                 <label >Sexo:</label>
                 <select ref={sexoRef} name="sexo" >
                     <option value="sexo">---</option>
@@ -80,12 +81,19 @@ const Curso = () => {
                     <option value="ND">Não definido</option>
                 </select>
                 <label>Email:</label>
-                    <input className="formu"  type="text" ref={emailRef} />
+                <input className="formu" type="text" ref={emailRef} />
                 <label>Telefone:</label>
-                    <input className="formu"  type="text" ref={telefoneRef} />
+                <input className="formu" type="text" ref={telefoneRef} />
                 <label>Endereço:</label>
-                    <input className="formu"  type="text" ref={enderecoRef} />
-                
+                <input className="formu" type="text" ref={enderecoRef} />
+
+                <label >Periodo:</label>
+                <select ref={periodoRef} name="periodo" >
+                    <option value="periodo">---</option>
+                    <option value="M"> Manhã (das 08:00 as 10:00)</option>
+                    <option value="T"> Tarde (das 14:00 as 16:00)</option>
+                    <option value="N"> noite (das 18:00 as 20:00)</option>
+                </select>
                 <Button> Registrar</Button>
             </form>
         </div>
