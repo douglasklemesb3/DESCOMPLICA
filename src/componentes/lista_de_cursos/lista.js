@@ -11,7 +11,7 @@ const Lista = ({titulo,imagem,descricao, local}) =>{
             <h2>{local}</h2>
             </p>
 
-            <Link to="/cadastrocursos"><button>Increva-se</button></Link>
+            <Link to="/cadastrocursos"><button>Inscreva-se</button></Link>
 
             <div className="divisao"></div>
         </div>

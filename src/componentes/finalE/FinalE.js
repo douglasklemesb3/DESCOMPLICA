@@ -18,7 +18,7 @@ const FinalE= () => {
                     <p>Recomendações:</p>
                     <p>Levar xerox dos seguintes documentos na primeira aula:</p>
                     <p>- RG;</p>
-                    <p>- Comprovante de resideñcia;</p>
+                    <p>- Comprovante de residência;</p>
                     <p>- CPF</p>
 
                 </div>
